@@ -1,0 +1,25 @@
+@import './base.css';
+
+html, body, main {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+input, button {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+}
