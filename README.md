@@ -12,5 +12,8 @@ Wait for the command to finish, and your frontend and backend containers should 
 You can edit the frontend and backend code, the containers use a mounted volume.
 It is possible that you'll need to restart the backend after a change. (```docker restart <container>``` or using Docker Desktop)
 
+# Rickroll
+[Over here](https://fastapi.tiangolo.com/)
+
 # Documentation
-[https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
+[https://fastapi.tiangolo.com/](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
