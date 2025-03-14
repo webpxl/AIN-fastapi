@@ -3,7 +3,6 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-
 class User(BaseModel):
     name: str
 
