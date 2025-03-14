@@ -1,0 +1,11 @@
+#docker-compose.yml
+version: '3.7'
+
+services:
+  api:
+    build: ./backend
+    container_name: "intro"
+    volumes:
+      - ./backend:/app
+    ports:
+      - 8000:8000
