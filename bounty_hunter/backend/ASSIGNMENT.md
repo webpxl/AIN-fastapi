@@ -138,15 +138,15 @@ Then refresh [http://localhost:4242](http://localhost:4242) — the board should
 
 ---
 
-## Deliverables
+### Step 6 — Create sector & planet views
 
-| File | What it contains |
-|------|------------------|
-| `database.py` | ✅ Provided — engine + `get_db` |
-| `models.py` | `Planet` and `Bounty` SQLModel models |
-| `schemas.py` | ✅ Provided — Pydantic schemas for all resources |
-| `main.py` | All API endpoints with CORS |
-| `seed.py` | Script that seeds the database |
+You're on your own now: Extend the frontend and backend so that a user can click on a sector or planet to view all related bounties for that location.
+
+**Frontend:** Create separate views that shows the required information. Make sure your navigation router is adjusted correctly.
+
+**Backend:** Create the necessary endpoints (probably using joins) to provide the correct data for these screens.
+
+---
 
 ## Tips
 
