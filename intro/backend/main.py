@@ -18,6 +18,10 @@ async def patrick_is_here():
 async def hello():
     return {"message": "Hello World"}
 
+@app.get("/user")
+async def get_user():
+    return {"name": "John Doe"}
+
 @app.post("/user")
 async def create_user(user:User):
     return {"Got user": user.name}
