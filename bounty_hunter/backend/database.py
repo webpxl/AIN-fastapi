@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import Session
+from sqlmodel import Session
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./galactic_bounty_board.db"
 
