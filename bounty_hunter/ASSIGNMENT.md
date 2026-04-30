@@ -20,7 +20,8 @@ The frontend talks to your API at `http://localhost:8000`. You can verify your A
 
 ## What You Need to Build
 
-Your task is to implement the backend in four steps. Each builds on the previous.
+Your task is to implement the backend in a few steps. Each builds on the previous.
+Frontend is given and doesn't need any changes untill the last step.
 
 ---
 
